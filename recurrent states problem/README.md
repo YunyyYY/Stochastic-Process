@@ -1,5 +1,4 @@
 # Recurrent States Problem
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 **Theorem 1**: If \\(C\\) is a finite, closed and irreducible set, then all states in \\(C\\) are recurrent.
 
