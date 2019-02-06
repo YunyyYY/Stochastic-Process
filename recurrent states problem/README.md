@@ -10,7 +10,7 @@ Let *P*(1,2) represents the probability of transferring from state 1 to state 2.
 
 <img src="https://github.com/YunyyYY/Stochastic-Process/blob/master/recurrent%20states%20problem/1.jpeg" width="400" />
 
-However, if *P* >= 1/2, all  states will be recurrent, the probability of starting from state 1 and return to state 1 is 1. Thus *P*(2,2) = 1, ...
+However, if *P* >= 1/2, all  states will be recurrent, the probability of starting from state 1 and return to state 1 is 1. Thus *p22* = 1, ...
 
 <img src="https://github.com/YunyyYY/Stochastic-Process/blob/master/recurrent%20states%20problem/2.jpeg" width="400"/>
 
