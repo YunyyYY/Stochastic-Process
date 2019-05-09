@@ -787,31 +787,31 @@ Suppose a Markov chain is irreducible, aperiodic and has a stationary distributi
 To check that $\Pi(x_1, y_1) = \Pi(x_1)\Pi(y_1)$ is a stationary distribution, need to satisfy:
 
 1. sum = 1
-   $$
-   \begin{aligned}
-   \sum_{x,y}p((x_2,y_2), (x_1, y_1))\pi(x_2,y_2) &= \sum_{x_2\in S}\sum_{y_2\in S}p(x_2,x_1)p(y_2, y_1)\pi(x_2)\pi(y_2)\\
-   &= \sum_{x_2\in S}p(x_2,x_1)\pi(x_2)\sum_{y_2\in S}p(y_2, y_1)\pi(y_2)\\
-   &= \pi(x_1)\pi(y_1)
-   \end{aligned}
-   $$
+>   $$
+>   \begin{aligned}
+>   \sum_{x,y}p((x_2,y_2), (x_1, y_1))\pi(x_2,y_2) &= \sum_{x_2\in S}\sum_{y_2\in S}p(x_2,x_1)p(y_2, y_1)\pi(x_2)\pi(y_2)\\
+>   &= \sum_{x_2\in S}p(x_2,x_1)\pi(x_2)\sum_{y_2\in S}p(y_2, y_1)\pi(y_2)\\
+>   &= \pi(x_1)\pi(y_1)
+>   \end{aligned}
+>   $$
 
 2. staitionary
 
-Let $T=\min\{n\geq 0;x_n = y_n\}. ($$T$ is a random variable depends on $X_0$, $Y_0$ and the transition matrix, and is also a stopping time.)
-$$
-\begin{aligned}
-\mathbb{P}(x_n = y, T\leq n) &= \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(T=m, x_m = x, x_n=y)\\
-&= \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(x_n=y|T=m, x_m = x)\mathbb{P}(T=m, x_m = x)
-\end{aligned}
-$$
-Whether $T=m$ doesn't affect $x_n = y$, therefore, according to Markov property and using *symmetry*, 
-$$
-\begin{aligned}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ &= \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(x_n=y|x_m = x)\mathbb{P}(T=m, x_m = x)\\
-&=  \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(y_n=y|y_m = x)\mathbb{P}(T=m, y_m = x)\\
-&= \mathbb{P}(y_n=y,T\leq n)
-\end{aligned}
-$$
+> Let $T=\min\{n\geq 0;x_n = y_n\}. ($$T$ is a random variable depends on $X_0$, $Y_0$ and the transition matrix, and is also a stopping time.)
+> $$
+> \begin{aligned}
+> \mathbb{P}(x_n = y, T\leq n) &= \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(T=m, x_m = x, x_n=y)\\
+> &= \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(x_n=y|T=m, x_m = x)\mathbb{P}(T=m, x_m = x)
+> \end{aligned}
+> $$
+> Whether $T=m$ doesn't affect $x_n = y$, therefore, according to Markov property and using *symmetry*, 
+> $$
+> \begin{aligned}
+> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ &= \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(x_n=y|x_m = x)\mathbb{P}(T=m, x_m = x)\\
+> &=  \sum_{m=0}^n\sum_{x\in S}\mathbb{P}(y_n=y|y_m = x)\mathbb{P}(T=m, y_m = x)\\
+> &= \mathbb{P}(y_n=y,T\leq n)
+> \end{aligned}
+> $$
 
 >  What if $T\rightarrow \infty$? What's $\mathbb{P}(T=\infty)$? Impossible.
 >
