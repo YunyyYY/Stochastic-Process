@@ -6,7 +6,7 @@
 
 A random variable $T$ is said to have an exponential distribution with rate $\lambda$, writing $T \sim \exp(\lambda)$, if
 $$
-\mathbb{P}(T\leq t) = 1 - e^{-\lambda t}, ~~~~~t \geq 0
+\mathbb{P}(T\leq t) = 1 - e^{-\lambda t}, t \geq 0
 $$
 In a function definition,
 $$
@@ -134,7 +134,7 @@ $N(s)​$ is a poisson  process with rate $\lambda​$.
 
 - $N(s)$ is discrete, because $n$ can only take integers.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec18.png" width="600px" />
+<img src="pic/lec18.png" width="600px" />
 
 ### Poisson Random Variable
 
@@ -164,11 +164,11 @@ $N(s)​$ is a Poisson random variable with parameter $\lambda s​$.
 > &= \mathbb{P}(T_n\leq s, \tau_{n+1}>s-T_n)
 > \end{aligned}
 > $$
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec18-3.png" width="400px" />
+> <img src="pic/lec18-3.png" width="400px" />
 >
 > Although $T_n$ and $\tau_{n+1}$  are independent, the time of $\tau_{n+1}$ depends on $T_n$, so we cannot simply multiply their probabilities directly. Instead, we can use double integration on the probability density at each point:
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec18-2.png" width="300px" />
+> <img src="pic/lec18-2.png" width="300px" />
 > $$
 > \begin{aligned}
 > \mathbb{P}(N(s) = n) &= \mathbb{P}(T_n\leq s, \tau_{n+1}>s-T_n) \\
@@ -297,7 +297,7 @@ $$
 
 People arrive at store with rate 81 per day and spend on average with \$8 with standard  deviation \$6. Find average and standard deiation for daily revenue.
 
-> $N(t)​$ is a Poisson process with rate 81.
+> $N(t)$ is a Poisson process with rate 81.
 >
 > $\mathbb{E}(S) =  \mathbb{E}(N)\mathbb{E}(Y) = 81\times 8 = 648​$
 >
@@ -305,7 +305,7 @@ People arrive at store with rate 81 per day and spend on average with \$8 with s
 
 How to heuristically understand this formula?
 
-If $N​$ is constant, there are fixed number of arrivals, which are identically indepedent distribution, 
+If $N$ is constant, there are fixed number of arrivals, which are identically indepedent distribution, 
 $$
 S= y_1 + …+ y_N
 $$
@@ -454,7 +454,7 @@ $$
 >
 > 1. 10th arrival is duck
 > 2. 10th arrival is heron
->    <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec21.png" width="300px" />
+>    <img src="pic/lec21.png" width="300px" />
 >
 > $$
 > \begin{aligned}
@@ -504,7 +504,7 @@ Therefore, the distribution is **binomial** when **conditioning on Poisson**.
 
 ### Poisson process in 2-dimension
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec22.png" width="300px" />
+<img src="pic/lec22.png" width="300px" />
 
 **Example 1**
 
@@ -576,7 +576,7 @@ $B_2\sim \exp(-t/100)​$.
 Let $A$ denotes **life** of the flashlight, $A = \min\{B_1, B_2\} \sim \exp(-t/50)$.
 
 - If we have 50 batteries, how long does the flashlight run on average (replace a bad with new if necessary)?
-  <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec23.png" width="300px" />
+  <img src="pic/lec23.png" width="300px" />
   $A_2 = ​$ **life** of flashlight after replacing one battery, life time of each battery is $A_1 +​$ exponential given it survived to time $A_1​$ already (memoryless property). It is still exponential with average 100 hours, and $A_2 \sim \exp(1/50)​$.
   $A_3​$ … so on.
 
