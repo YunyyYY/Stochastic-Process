@@ -45,7 +45,7 @@ Let $N(t)$ be a Poisson process rate $\lambda$. Let $y_n$ be a DTMC with transit
 
 - What if $\tau_i\sim u[0, 1]$?
 
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec32.png" width="200px" /><img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec32-2.png" width="200px" />
+> <img src="pic/lec32.png" width="200px" /><img src="pic/lec32-2.png" width="200px" />
 > Estimate $\mathbb{P}(x_1) = 1|x_{0.9} = 2, x_{0.8} = 2, …. x_0 = 2 \approx 1/2$,
 >
 > but $\mathbb{P}(x_{0.1}=1|x_0=2) = 1/10 \times 1/2 = 1/20$.
@@ -204,7 +204,7 @@ Given DTMC $y_n$ and hold time parameters, construct the relevant CTMC.
 
 What if $\sum t_i < \infty$? 
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec34.png" width="250px" />
+<img src="pic/lec34.png" width="250px" />
 
 Assume that $t_i$ are $t_i = (\frac{1}{2})^i$, $\sum t_i = 1$.
 
@@ -286,7 +286,7 @@ $$
 
 A CTMC $X_t$ is irreducible if the uderlying DTMC is irreducible.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec35.png" width="300px" />
+<img src="pic/lec35.png" width="300px" />
 
 Aperiodicity is not meaningful for CTMC.
 
@@ -404,7 +404,7 @@ Check stationarity: total jump rate into $j = \sum_{k\neq j}\pi(k)q(k, j) = \sum
 
 Could this graph has $\pi$ satisfying detailed balance?
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec36-1.png" width="200px" />
+<img src="pic/lec36-1.png" width="200px" />
 
 Arrows makred with jump rates. Cannot satisfy detailed balance, because $\pi(1)q(1, 2) \neq \pi(2)q(2,1)$ because $q(2, 1) = 0$.
 
@@ -440,19 +440,19 @@ A shop has 2 barbers, each cut hair at rate 3 people/h. Customer arrives as Pois
 >
 > With $q$ and $\lambda$, we can get the underlying DTMC transition matrix.
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec36-2.png" width="300px" />
+> <img src="pic/lec36-2.png" width="300px" />
 >
 > Let $V_0 = \min\{t\geq 0: x_t=0\}$ and $V_4 = \min\{t\geq 0: x_t = 4\}$, find $\mathbb{P}(\text{reach 0 before 4})$, given start at 2.
 >
 > **Make 0 and 4 absorbing, and the rest are transient states.**
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec36-3.png" width="300px" />
+> <img src="pic/lec36-3.png" width="300px" />
 >
 > $F$ is the matrix with $(i, j)$ entry being probability of reaching $j$ first among recurrent states when starting at transient $i$.
 >
 > $F = MS = (I-\tilde{Q})^{-1}S$, and the numerical result is
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec36-4.png" width="250px" />
+> <img src="pic/lec36-4.png" width="250px" />
 >
 > The probability of reaching 0 before 4 drops from initia state being 1 to 3, which is reasonable.
 
@@ -516,7 +516,7 @@ F &= MS = (I-\tilde{Q})^{-1}S \\
 &= (-Q_T)^{-1} Q_{T, R}
 \end{aligned}
 $$
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec37.png" width="250px" />
+<img src="pic/lec37.png" width="250px" />
 
 
 
@@ -526,7 +526,7 @@ A bacteria colony, each bacterium splits at rate $\mu$ per minute and dies at ra
 
 > First get the matrix $Q$:
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec37-2.png" width="300px" />
+> <img src="pic/lec37-2.png" width="300px" />
 >
 > Treat 3 as absorbing, then the first two rows are all 0, and the last two rows remain unchanged.
 >
