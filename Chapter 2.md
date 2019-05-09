@@ -23,7 +23,7 @@ Its variance is $Var(T) = \frac{1}{\lambda^2}$.
 
 Common models: line waiting, atomic decay.
 
-####Property: memoryless
+#### Property: memoryless
 
 Let $T \sim \exp(\lambda)​$ then for any $s, t\geq  0​$, 
 $$
