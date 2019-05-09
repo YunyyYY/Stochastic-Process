@@ -89,7 +89,7 @@ $T_n = \tau_1 + \tau_2 + … + \tau_n$.
 
 Goal: $R(t) = \sum_{i=1}^{N(t)}R_i$.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec25.png" width="300px" />
+<img src="pic/lec25.png" width="300px" />
 
 **Example**: insurance company receives claims at times $T_n$, gets a reward $R_n$.
 
@@ -160,7 +160,7 @@ Two random variables:
 
 $\mathbb{E}[h_i] = \mu_H$, $\mathbb{E}[s_i] = \mu_S$.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec26.png" width="300px" />
+<img src="pic/lec26.png" width="300px" />
 
 State: 1, 2, 1, 2, ...
 
@@ -207,7 +207,7 @@ How to account for two random time intervals?
 
 ### Age and Residual Life
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec26-2.png" width="300px" />
+<img src="pic/lec26-2.png" width="300px" />
 
 $N(t) = \max\{n: T_n\leq t\}$
 
@@ -221,7 +221,7 @@ In discrete case:  all time intervals are positive integers.
 
 Write a Markov chain example with the property:
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec26-3.png" width="300px" />
+<img src="pic/lec26-3.png" width="300px" />
 
 Renewal: eg, first return to R; starting from R; ...
 
@@ -229,7 +229,7 @@ Return times are positive integers; R has a loop if $p>0$.
 
 Define **return time**: $\tau_R = \min\{n:X_n = R, n\geq 1\}$.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec26-4.png" width="600px" />
+<img src="pic/lec26-4.png" width="600px" />
 
 **Define**
 $$
@@ -296,7 +296,7 @@ So in the long run, the number of calls in system is Poisson with parameter $\la
 
 ### Age Residual Life
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec27.png" width="500px" />
+<img src="pic/lec27.png" width="500px" />
 
 Long run behavior of $Z$ ?
 
@@ -311,7 +311,7 @@ The states of $M_n$ are $\{R, 1, 2, 3, ...\}$.
 
 Let $\tau$ represents the **number of arrows** traversed.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec27-2.png" width="500px" />
+<img src="pic/lec27-2.png" width="500px" />
 
 $p(i, i-1) = 1$ if $i\geq 1$.
 
@@ -387,7 +387,7 @@ Particles arrive at a sensor as a Poisson process with rate $\lambda$. Sensor pr
 
 >  Alternating renewal process.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec28.pdf" width="300px" />
+<img src="pic/lec28.pdf" width="300px" />
 
 By theorem, the long run proportion in a "closed" state (cannot sense particles) is
 $$
