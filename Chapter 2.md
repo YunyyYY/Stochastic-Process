@@ -563,7 +563,7 @@ Traffic on a road passes as a Poisson process with rate 2 vehicles per min. $20\
 
 
 
-## Let 23
+## Lec 23
 
 **Example 1**
 
@@ -605,13 +605,13 @@ Let $A$ denotes **life** of the flashlight, $A = \min\{B_1, B_2\} \sim \exp(-t/5
 
 - Number the batteries 1, 2, 3, … 50 and always put in the smallest battery when necessary.
 
-  Let $N​$ be the number of last battery working. Find the distribution of $N​$.
+  Let $N$ be the number of last battery working. Find the distribution of $N​$.
   From back to the front,
-  $\mathbb{P}(N=50) = 1/2​$, this is because at last the batteries are one from 1-49 and 50.
+  $\mathbb{P}(N=50) = 1/2$, this is because at last the batteries are one from 1-49 and 50.
   Similarly, $\mathbb{P}(N=49) = 1/2\times1/2 = 1/4​$.
   ...
-  $\mathbb{P}(N=2) = 1/2^{49}​$,
-  $\mathbb{P}(N=1) = 1/2^{49}​$.
+  $\mathbb{P}(N=2) = 1/2^{49}$,
+  $\mathbb{P}(N=1) = 1/2^{49}$.
   To check its a distribution, simply notice that its sum is 1.
 
 
