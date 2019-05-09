@@ -10,10 +10,10 @@ $$
 $$
 In a function definition,
 $$
-f_T(t) = \left\{\begin{aligned} 
+f_T(t) = \left\{\begin{align} 
 &\lambda e^{-\lambda t} &t\geq 0 \\
 & 0  & t<0
-\end{aligned}\right.
+\end{align}\right.
 $$
 Its expectation describes how fast the event is happening, *aka* **waiting time**.
 $$
