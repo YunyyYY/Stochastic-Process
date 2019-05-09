@@ -2,7 +2,7 @@
 
 ## Lec 1
 
-###Gambler's Ruin
+### Gambler's Ruin
 
 > $$
 > w_i = 1, p = \left\{
@@ -67,10 +67,10 @@ Let $x_n, n = 0 , 1... $ be a discrete time Markov chain with transition matrix 
 
 Write out transition matrix for gambler ruin $N=5, p=0.4$: 
 
-![](/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec1.png)
+![](pic/lec1.png)
 
 
-## Let 2
+## Lec 2
 
 ###Higher order
 
@@ -181,7 +181,7 @@ Does it depends on initial distribution $\alpha$ ? No, after a lont time, stabil
 
 ## Lec 4
 
-###Classification of states
+### Classification of states
 
 Notation:
 
@@ -246,7 +246,7 @@ For [2], $\mathbb{P}(T^1_y<\infty) = \rho_{yy}$ and $\mathbb{P}(T^1_y<\infty)$ m
 
 Transient case: if $\rho_{yy} < 1$, $\mathbb{P}_y(T^k_y<\infty~for~all~k) \leq \mathbb{P}_y(T^L_y < \infty)$ for some fixed $L$. Since $\rho^L_{yy}\rightarrow 0$, it must be that $\mathbb{P}_y(T^k_y<\infty~for~all~k) = 0$. Therefore, eventually at some time, it will not return to initial state.
 
-###Strong Markov Property
+### Strong Markov Property
 
 **Definition** 
 
@@ -260,7 +260,7 @@ irrelevant for predicting the future (computing probabilities), and $X_{T+k}, k 
 
 > eg. Gambler's ruin on $\{0, 1, 2, 3, 4\}$:
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec4.png" width="400px" />
+> <img src="pic/lec4.png" width="400px" />
 >
 > 1. list any recurrent state: 
 >
@@ -343,7 +343,7 @@ If $x\rightarrow y$, $\rho_{xy}>0$. But if $\rho_{yx} < 1$, then the chance that
 
 *eg.* For the following case,
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec4.png" width="400px" />
+<img src="pic/lec4.png" width="400px" />
 
 
 
@@ -360,7 +360,7 @@ If $C$ is a finite, closed, irreducible set, then all states in $C$ are recurren
 
 However, given an infinite chain, the class of all states depends on their transition probabilities.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec5.png" width="400px" />
+<img src="pic/lec5.png" width="400px" />
 
 For example, in this picture, there is only one closed set (the whole chain).
 
@@ -514,7 +514,7 @@ In a *closed, finite* set there is a recurrent state.
 
 
 
-###Stationary distribution
+### Stationary distribution
 
 **Definition**
 
@@ -564,7 +564,7 @@ Then, there is a unique solution to $\Pi \cdot P = \Pi$ with $\sum_x\pi(x) = 1$ 
 >
 > Think about entries of $P^{k-1}$. Since the set is irreducible,  the worst case shortest path $x\rightarrow y$ needs $k-1$ steps. Therefore, all entries of $P^{k-1}$ must be positive. However, this is just *morraly* correct, but not factually correct, as there might exists *periodicity*.
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec7.png" width="200px" />
+> <img src="pic/lec7.png" width="200px" />
 >
 > For example, in this case the period of state 1 is two.
 >
@@ -782,7 +782,7 @@ Suppose a Markov chain is irreducible, aperiodic and has a stationary distributi
 >
 > The condition **aperiodic** is very important for $Z_n$ to be irreducible, as can be seen from the following picture: 
 >
-> <img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec10.png" width="500px" />
+> <img src="pic/lec10.png" width="500px" />
 
 To check that $\Pi(x_1, y_1) = \Pi(x_1)\Pi(y_1)$ is a stationary distribution, need to satisfy:
 
@@ -827,7 +827,7 @@ Final idea: start $x$ at whatever point $x_0$, start $y$ at stationary $\pi$. Th
 
 Does a stationary distribution exists for the following:
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec11.jpeg" width="250px" />
+<img src="pic/lec11.jpeg" width="250px" />
 
 Solving $\pi P = \pi$, we have $\pi = [2/5, 1/10, 3/10, 1/5]$.
 
@@ -841,7 +841,7 @@ Demonstrate values $x$, $y$ so that $p^n(x, y) \nrightarrow \pi(x,y)$.
 
 Find all staionary distribution of:
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec11-2.jpeg" width="250px" />
+<img src="pic/lec11-2.jpeg" width="250px" />
 
 - Is this chain aperiodic? 
   *yes*.
@@ -884,7 +884,7 @@ $$
 
 Simple random walk: 
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec12.jpeg" width="300px" />
+<img src="pic/lec12.jpeg" width="300px" />
 
 $P_0(T_0<\infty) = 1$ abd $E_0(T_0) = \infty$, so  every state is null recurrent.
 
@@ -979,7 +979,7 @@ $$
 F = P_{T,R}+P_{T,T}\cdot F
 $$
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math%20632/pic/lec13-1.jpeg" width="500px" />
+<img src="pic/lec13-1.jpeg" width="500px" />
 
  In addition, 
 $$
@@ -1001,7 +1001,7 @@ Using the same method, we can derive
 $$
 m = 1 + P_{T,T}m
 $$
-<img src="/Users/kelly/Desktop/2019_Spring/Math 632/pic/lec13-2.png" width="400px" />
+<img src="pic/lec13-2.png" width="400px" />
 
 Thus, 
 $$
@@ -1054,7 +1054,7 @@ $$
 
 *Chain example*: for random walk $\{0, 1, 2, 3, 4\}$ with **reflecting boundary**, find the expected number of steps from 3 to 0.
 
-<img src="/Users/kelly/Desktop/2019_Spring/Math%20632/pic/lec16.png" width="500px" />
+<img src="pic/lec16.png" width="500px" />
 
 First, rearrange to put state 0 in the front, and write down the transient matrix (first, need to make 0 an absorbing state, so rearrange its flow to other states by redirecting to itself with probability 1):
 $$
